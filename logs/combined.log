@@ -1,0 +1,14 @@
+{"level":"info","message":"Log from GET /","service":"acquisitions-api","timestamp":"2026-01-09T15:09:37.648Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:09:37 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-01-09T15:09:37.886Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:09:38 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-01-09T15:09:38.177Z"}
+{"level":"info","message":"Log from GET /","service":"acquisitions-api","timestamp":"2026-01-09T15:24:07.522Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:24:07 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:24:07.546Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:24:35 +0000] \"GET /api HTTP/1.1\" 200 46 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:24:35.415Z"}
+{"level":"info","message":"Log from GET /","service":"acquisitions-api","timestamp":"2026-01-09T15:24:40.939Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:24:40 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:24:40.942Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:24:43 +0000] \"GET /api HTTP/1.1\" 200 46 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:24:43.863Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:24:51 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:24:51.305Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:15:25:26 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T15:25:26.594Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:16:36:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T16:36:22.763Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:16:44:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 110 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T16:44:11.016Z"}
+{"level":"info","message":"::1 - - [09/Jan/2026:16:45:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 110 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-09T16:45:12.253Z"}
