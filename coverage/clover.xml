@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1768048253639" clover="3.2.0">
-  <project timestamp="1768048253639" name="All files">
-    <metrics statements="832" coveredstatements="272" conditionals="7" coveredconditionals="5" methods="27" coveredmethods="2" elements="866" coveredelements="279" complexity="0" loc="832" ncloc="832" packages="9" files="16" classes="16"/>
+<coverage generated="1768050881071" clover="3.2.0">
+  <project timestamp="1768050881071" name="All files">
+    <metrics statements="859" coveredstatements="299" conditionals="7" coveredconditionals="5" methods="27" coveredmethods="2" elements="893" coveredelements="306" complexity="0" loc="859" ncloc="859" packages="9" files="16" classes="16"/>
     <package name="src">
-      <metrics statements="43" coveredstatements="41" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <metrics statements="53" coveredstatements="51" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="app.js" path="C:\Users\Krishil Agrawal\Desktop\DevOps\acquisitions\src\app.js">
-        <metrics statements="43" coveredstatements="41" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <metrics statements="53" coveredstatements="51" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -24,15 +24,15 @@
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -43,16 +43,26 @@
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="41" count="1" type="stmt"/>
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.config">
-      <metrics statements="56" coveredstatements="50" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="58" coveredstatements="52" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="database.js" path="C:\Users\Krishil Agrawal\Desktop\DevOps\acquisitions\src\config\database.js">
         <metrics statements="17" coveredstatements="11" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -74,7 +84,7 @@
         <line num="17" count="1" type="stmt"/>
       </file>
       <file name="logger.js" path="C:\Users\Krishil Agrawal\Desktop\DevOps\acquisitions\src\config\logger.js">
-        <metrics statements="39" coveredstatements="39" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="41" coveredstatements="41" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -114,6 +124,8 @@
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers">
@@ -863,9 +875,9 @@
       </file>
     </package>
     <package name="src.validations">
-      <metrics statements="38" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="53" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="auth.validation.js" path="C:\Users\Krishil Agrawal\Desktop\DevOps\acquisitions\src\validations\auth.validation.js">
-        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -879,6 +891,21 @@
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
       </file>
       <file name="users.validation.js" path="C:\Users\Krishil Agrawal\Desktop\DevOps\acquisitions\src\validations\users.validation.js">
         <metrics statements="25" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>

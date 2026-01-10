@@ -957,3 +957,16 @@
 {"level":"info","message":"::1 - - [10/Jan/2026:13:08:56 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:08:56.792Z"}
 {"level":"info","message":"::1 - - [10/Jan/2026:13:09:26 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:09:26.859Z"}
 {"level":"info","message":"::1 - - [10/Jan/2026:13:09:56 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:09:56.938Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:10:27 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:10:27.014Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:10:57 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:10:57.097Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:11:27 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:11:27.189Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:11:57 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:11:57.254Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:12:27 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:12:27.320Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:12:57 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:12:57.403Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:13:27 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:13:27.483Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:13:57 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:13:57.580Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:13:14:27 +0000] \"GET /health HTTP/1.1\" 200 79 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:14:27.654Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Jan/2026:13:14:40 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:14:40.930Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Jan/2026:13:14:40 +0000] \"GET /api HTTP/1.1\" 200 46 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:14:40.943Z"}
+{"level":"error","message":"Route not found!","service":"acquisitions-api","timestamp":"2026-01-10T13:14:40.946Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [10/Jan/2026:13:14:40 +0000] \"GET /nonexsistent HTTP/1.1\" 404 30 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-01-10T13:14:40.947Z"}
