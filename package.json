@@ -17,13 +17,16 @@
   },
   "scripts": {
     "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:docker": "node src/services/dev.js",
+    "prod:docker": "node src/services/prod.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +40,8 @@
   },
   "homepage": "https://github.com/Krishilgithub/acquisitions#readme",
   "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.16",
+    "@arcjet/node": "^1.0.0-beta.16",
     "@neondatabase/serverless": "^1.0.2",
     "arcjet": "^1.0.0-beta.16",
     "bcrypt": "^6.0.0",
